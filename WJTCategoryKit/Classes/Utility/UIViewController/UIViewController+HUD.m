@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+HUD.h"
+#import "MBProgressHUD.h"
 #import "DefaultValueMacro.h"
 #import "UIColor+Utilities.h"
 

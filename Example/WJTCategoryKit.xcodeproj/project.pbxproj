@@ -62,10 +62,10 @@
 		81DA8F08D20962DD83AC6BA0 /* Pods_WJTCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJTCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C5FCBBAD7BC7A20F5757F7F /* Pods_WJTCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJTCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90657B8CB6396E1474DCDF4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		90657B8CB6396E1474DCDF4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		948C4BFA36DDA7357ABD6B01 /* Pods-WJTCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WJTCategoryKit_Example/Pods-WJTCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9762A07CF7E7FFF64189A10B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CDF340C0C0E99AB7511F7078 /* WJTCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WJTCategoryKit.podspec; path = ../WJTCategoryKit.podspec; sourceTree = "<group>"; };
+		9762A07CF7E7FFF64189A10B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDF340C0C0E99AB7511F7078 /* WJTCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WJTCategoryKit.podspec; path = ../WJTCategoryKit.podspec; sourceTree = "<group>"; };
 		DAD2BA39CB6B575BFE7D8B13 /* Pods-WJTCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJTCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WJTCategoryKit_Tests/Pods-WJTCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				DAD2BA39CB6B575BFE7D8B13 /* Pods-WJTCategoryKit_Tests.debug.xcconfig */,
 				1FA47FAF2D419FACBB5755F8 /* Pods-WJTCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,6 +498,7 @@
 			baseConfigurationReference = 2885965D9475F0F58C2B34FA /* Pods-WJTCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WJTCategoryKit/WJTCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "WJTCategoryKit/WJTCategoryKit-Info.plist";
@@ -513,6 +514,7 @@
 			baseConfigurationReference = 948C4BFA36DDA7357ABD6B01 /* Pods-WJTCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WJTCategoryKit/WJTCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "WJTCategoryKit/WJTCategoryKit-Info.plist";
