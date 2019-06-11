@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WJTCategoryKit_Example' do
+  pod 'WJTCategoryKit', :path => '../'
+
+  target 'WJTCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
