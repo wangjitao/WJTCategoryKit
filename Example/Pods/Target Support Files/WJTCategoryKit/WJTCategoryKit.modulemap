@@ -1,0 +1,6 @@
+framework module WJTCategoryKit {
+  umbrella header "WJTCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

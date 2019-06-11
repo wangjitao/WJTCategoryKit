@@ -1,0 +1,6 @@
+framework module Pods_WJTCategoryKit_Tests {
+  umbrella header "Pods-WJTCategoryKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

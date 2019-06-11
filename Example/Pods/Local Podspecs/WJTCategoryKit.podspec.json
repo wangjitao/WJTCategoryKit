@@ -1,0 +1,30 @@
+{
+  "name": "WJTCategoryKit",
+  "version": "0.1.0",
+  "summary": "WJTCategoryKit 常用分类",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangjitao/WJTCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangjitao": "wangjitao.sir@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wangjitao/WJTCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WJTCategoryKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
+}
